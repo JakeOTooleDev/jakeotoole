@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
+import About from "./pages/About";
 
 import "./App.css";
 
@@ -9,6 +10,9 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
           <Route path="/">
             <Home />
           </Route>
