@@ -5,7 +5,9 @@ import About from "./pages/About";
 
 import Header from "./components/layout/Header";
 
-import "./App.css";
+import "./reset.scss";
+import "./font.scss";
+import styles from "./App.module.scss";
 
 function App() {
   return (
