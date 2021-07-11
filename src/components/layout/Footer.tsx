@@ -5,13 +5,19 @@ export const Footer = () => (
     <div>
       <ul>
         <li>
-          <a href="#">GitHub</a>
+          <a href="https://github.com/JakeOTooleDev" target="_blank">
+            GitHub
+          </a>
         </li>
         <li>
-          <a href="#">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/jake-o-toole/" target="_blank">
+            LinkedIn
+          </a>
         </li>
         <li>
-          <a href="#">Twitter</a>
+          <a href="https://twitter.com/jakeotooledev" target="_blank">
+            Twitter
+          </a>
         </li>
       </ul>
     </div>
