@@ -8,7 +8,6 @@ import Header from "./components/layout/Header";
 
 import "./reset.scss";
 import "./font.scss";
-import styles from "./App.module.scss";
 
 function App() {
   return (
