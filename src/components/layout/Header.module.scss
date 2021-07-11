@@ -1,7 +1,16 @@
-.header {
+%flex-row {
   display: flex;
   flex-direction: row;
+}
+
+.header {
+  @extend %flex-row;
+  justify-content: space-between;
   ul {
+    @extend %flex-row;
     list-style: none;
+  }
+  li {
+    margin: 0 4px;
   }
 }

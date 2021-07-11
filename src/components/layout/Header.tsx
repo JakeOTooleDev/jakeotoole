@@ -4,6 +4,9 @@ import styles from "./Header.module.scss";
 
 export const Header = () => (
   <header className={styles.header}>
+    <div>
+      <Link to="/">Jake O'Toole</Link>
+    </div>
     <nav>
       <ul>
         <li>
