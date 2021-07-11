@@ -7,7 +7,7 @@ export const Home = () => (
       <h2>MERN's Point and Click Adventure</h2>
       <ul>
         <li>
-          <a href="#" target="_blank">
+          <a href="https://www.google.com" target="_blank" rel="noreferrer">
             Deployed Application
           </a>
         </li>
@@ -15,6 +15,7 @@ export const Home = () => (
           <a
             href="https://github.com/JakeOTooleDev/merns-adventure"
             target="_blank"
+            rel="noreferrer"
           >
             GitHub
           </a>
