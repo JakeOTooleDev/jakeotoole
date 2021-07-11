@@ -14,6 +14,7 @@ function App() {
     <div className="App">
       <Router>
         <Header />
+        {/* ---- Router start ---- */}
         <Switch>
           <Route path="/about">
             <About />
@@ -22,6 +23,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
+        {/* --- Router end ---- */}
       </Router>
     </div>
   );
