@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 
+import styles from "./Header.module.scss";
+
 export const Header = () => (
-  <header>
+  <header className={styles.header}>
     <nav>
       <ul>
         <li>
