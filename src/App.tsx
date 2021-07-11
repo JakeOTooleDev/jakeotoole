@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
 import About from "./pages/About";
+import Home from "./pages/Home";
 
+import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
 
 import "./reset.scss";
@@ -24,6 +25,7 @@ function App() {
           </Route>
         </Switch>
         {/* --- Router end ---- */}
+        <Footer />
       </Router>
     </div>
   );
