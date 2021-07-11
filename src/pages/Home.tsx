@@ -7,7 +7,11 @@ export const Home = () => (
       <h2>MERN's Point and Click Adventure</h2>
       <ul>
         <li>
-          <a href="https://www.google.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://merns-adventure.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Deployed Application
           </a>
         </li>
