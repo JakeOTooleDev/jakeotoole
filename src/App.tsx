@@ -6,24 +6,28 @@ import Home from "./pages/Home";
 import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
 
+import styles from "./App.module.scss";
+
 import "./reset.scss";
 import "./font.scss";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
         <Header />
         {/* ---- Router start ---- */}
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-        {/* --- Router end ---- */}
+        <div className={styles.page}>
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+          {/* --- Router end ---- */}
+        </div>
         <Footer />
       </Router>
     </div>
