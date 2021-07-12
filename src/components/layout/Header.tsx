@@ -10,10 +10,16 @@ export const Header = () => (
     <nav>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <a href="#projects">Projects</a>
         </li>
         <li>
           <Link to="/about">About</Link>
+        </li>
+        <li>
+          <a href="#work">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
