@@ -4,7 +4,7 @@ import styles from "./Header.module.scss";
 
 export const Header = () => (
   <header className={styles.header}>
-    <div>
+    <div className={styles.home}>
       <Link to="/">Jake O'Toole</Link>
     </div>
     <nav>

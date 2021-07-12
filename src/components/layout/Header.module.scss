@@ -1,15 +1,22 @@
-%flex-row {
-  display: flex;
-  flex-direction: row;
-}
+@import "../../theme";
 
 .header {
   @extend %flex-row;
+  background-color: $base-color;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+  a {
+    @extend %nav-font;
+  }
   ul {
     @extend %flex-row;
   }
   li {
     margin: 0 4px;
   }
+}
+
+.home {
+  font-size: 1.5rem;
 }
