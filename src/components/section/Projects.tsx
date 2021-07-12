@@ -8,7 +8,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section>
+    <section id="projects">
       <h2>Projects</h2>
       {projects.map((project, index) => (
         <div key={`project-${index}`}>
