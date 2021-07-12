@@ -1,10 +1,13 @@
 import Projects from "../components/section/Projects";
 
+import styles from "./Home.module.scss";
+
 export const Home = () => (
   <>
-    <div>
-      <h1>Jake O'Toole</h1>
-    </div>
+    <section className={styles.intro}>
+      <div className="headshot">Head shot here</div>
+      <div className="headline">Headline here</div>
+    </section>
     <Projects />
   </>
 );
