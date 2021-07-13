@@ -10,10 +10,10 @@ export const Header = () => (
     <nav>
       <ul>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
         </li>
         {/* <li>
           <Link to="/about">About</Link>

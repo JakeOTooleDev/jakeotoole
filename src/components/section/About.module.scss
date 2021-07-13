@@ -1,0 +1,11 @@
+.about {
+  ul {
+    padding-left: 16px;
+    list-style-type: disc;
+  }
+  a {
+    text-decoration: none;
+    border-bottom: dotted black 1px;
+    color: rgba($color: #000000, $alpha: 0.8);
+  }
+}
