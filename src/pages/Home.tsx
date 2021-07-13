@@ -6,8 +6,8 @@ import Projects from "../components/section/Projects";
 export const Home = () => (
   <>
     <Intro />
-    <Projects />
     <About />
+    <Projects />
     <Contact />
   </>
 );

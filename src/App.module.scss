@@ -8,8 +8,12 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+  max-width: 100%;
 }
 
 .page {
   height: inherit;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
 }
