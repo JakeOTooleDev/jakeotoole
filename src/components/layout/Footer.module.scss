@@ -5,6 +5,7 @@
   @extend %flex-row;
   justify-content: center;
   width: 100%;
+  margin-top: 12px;
   ul {
     @extend %flex-row;
   }
@@ -13,7 +14,6 @@
   }
   a {
     @extend %nav-font;
+    margin: 0 12px;
   }
-  position: fixed;
-  bottom: 0;
 }

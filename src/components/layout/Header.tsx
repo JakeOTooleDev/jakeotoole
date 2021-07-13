@@ -13,11 +13,11 @@ export const Header = () => (
           <a href="#projects">Projects</a>
         </li>
         <li>
+          <a href="#about">About</a>
+        </li>
+        {/* <li>
           <Link to="/about">About</Link>
-        </li>
-        <li>
-          <a href="#work">Work</a>
-        </li>
+        </li> */}
         <li>
           <a href="#contact">Contact</a>
         </li>
