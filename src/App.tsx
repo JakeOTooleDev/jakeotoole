@@ -13,7 +13,7 @@ import "./font.scss";
 
 function App() {
   return (
-    <div>
+    <div className={styles.app}>
       <Router>
         <Header />
         {/* ---- Router start ---- */}

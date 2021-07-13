@@ -8,6 +8,7 @@
   padding: 0 12px;
   a {
     @extend %nav-font;
+    padding: 0px 4px;
   }
   ul {
     @extend %flex-row;

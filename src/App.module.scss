@@ -1,6 +1,15 @@
 @import "./theme";
 
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  section {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
 .page {
-  padding: 12px;
-  background-color: $light-color;
+  height: inherit;
 }
