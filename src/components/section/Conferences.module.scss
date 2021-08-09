@@ -1,0 +1,54 @@
+.conferenceSection {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.conference {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0px 24px;
+}
+
+.description {
+  margin-top: 8px;
+}
+
+.conferenceLinks {
+  display: flex;
+  a {
+    margin: 0 12px;
+    text-decoration: none;
+    border-bottom: dotted black 1px;
+    color: rgba($color: #000000, $alpha: 0.8);
+  }
+}
+
+.conferenceCollection {
+  h3 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  h4 {
+    margin: 0;
+    font-weight: 400;
+  }
+  h5 {
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 400;
+  }
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .conferenceCollection {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
