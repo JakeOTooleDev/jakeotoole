@@ -3,7 +3,7 @@ import styles from "./Footer.module.scss";
 export const Footer = () => (
   <footer className={styles.footer}>
     <div>
-      <ul>
+      {/* <ul>
         <li>
           <a
             href="https://github.com/JakeOTooleDev"
@@ -31,7 +31,7 @@ export const Footer = () => (
             Twitter
           </a>
         </li>
-      </ul>
+      </ul> */}
     </div>
   </footer>
 );

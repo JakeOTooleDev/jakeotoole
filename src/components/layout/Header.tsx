@@ -13,6 +13,9 @@ export const Header = () => (
           <a href="#about">About</a>
         </li>
         <li>
+          <a href="#conferences">Conferences</a>
+        </li>
+        <li>
           <a href="#projects">Projects</a>
         </li>
         {/* <li>

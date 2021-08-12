@@ -6,6 +6,7 @@
   justify-content: center;
   width: 100%;
   margin-top: 12px;
+  min-height: 20px;
   ul {
     @extend %flex-row;
   }
