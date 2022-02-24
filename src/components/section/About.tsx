@@ -6,8 +6,8 @@ export const About = () => (
     <article>
       <h3>What I am currently up to:</h3>
       <p>
-        I currently work as an Associate Software Engineer at <a href="https://www.spok.com">Spok</a>. I am primarily
-        focused on the front end utilizing React, TypeScript, PrimeReact, and much more.
+        I currently work as an Associate Software Engineer at <a href="https://www.nytimes.com/">The New York Times</a>.
+        I am primarily focused on the front end utilizing React, GraphQL, and much more.
       </p>
     </article>
     <article>
